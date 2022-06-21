@@ -1,9 +1,11 @@
 // function numberGuess() {
 //   let secretNumber = Math.floor(Math.random() * 10 + 1);
+//   console.log(secretNumber);
 //   const numberAttemps = 3;
 //   let yourNumber = Number(
 //     prompt(`Начнем игру. Угадай секретное число. Вводи свой вариант ниже`)
 //   );
+//   console.log(yourNumber);
 
 //   for (let i = 0; i < numberAttemps; i += 1) {
 //     if (Number(yourNumber) === secretNumber) {
@@ -11,7 +13,7 @@
 //       alert(`Это победа - Ты угадал число`);
 //       return "Отлично!";
 //     } else if (i < numberAttemps - 1) {
-//       prompt(`Это не то число, попробуй еще раз!`);
+//       yourNumber = prompt(`Это не то число, попробуй еще раз!`);
 //     } else {
 //       alert(
 //         `Игра окончена, секретное число было близко. Я загадал ${secretNumber}! Попробуй еще раз - обнови страницу`
@@ -27,7 +29,7 @@ function numberGuess() {
   const numberAttempts = 3;
   let yourNumber = Number(
     prompt(
-      `Начнем новую игру 
+      `Начнем новую игру
 Угадай секретное число от 1 до 10, которое я загадал. У тебя ${numberAttempts} ${properEnding(
         numberAttempts,
         "попытк"

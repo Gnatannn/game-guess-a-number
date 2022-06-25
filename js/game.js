@@ -98,3 +98,29 @@ function pointsCalc(a) {
     return 10;
   }
 }
+
+
+// ================= GAME ==================
+// const COUNT_LIMIT = 5;
+// const x = Math.floor(Math.random() * 100) + 1;
+// let userInput;
+// let count = 0;
+// console.log(x);
+
+// do {
+//   userInput = Number(prompt('Enter your number'));
+//   count += 1;
+
+//   if (userInput > x) {
+//     console.log(`${userInput} > x`);
+//   }
+//   if (userInput < x) {
+//     console.log(`${userInput} < x`);
+//   }
+// } while (userInput !== x && count != COUNT_LIMIT);
+
+// if (userInput === x) {
+//   console.log('Hurray!!!');
+// } else {
+//   console.log(count);
+// }
